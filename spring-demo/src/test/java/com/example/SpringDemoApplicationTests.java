@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringDemoApplication {
 
 	public static void main(String[] args) {
-	SpringApplication.run(SpringDemoApplication .class,args);
+	SpringApplication.run(SpringDemoApplication.class, args);
 }
 
 @GetMapping(value = "/")
